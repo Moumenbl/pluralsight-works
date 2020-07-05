@@ -1,1 +1,6 @@
-{"name":"Kazuya", "age":"26", "city":"NY"}
+[
+	{"name":"Kazuya", "age":"26", "city":"NY"},
+	{"name":"Steve", "age":"23", "city":"New Orleans"},
+	{"name":"Jin", "age":"25", "city":"Los Angeles"}
+
+]
