@@ -17,7 +17,7 @@ xhr.onload = function () {
 			console.log(myStuff.presidents[i].served);
 
 			console.log(myStuff.vicepresidents[i].first);
-			console.log(myStuff.presidents[i].last);
+			console.log(myStuff.vicepresidents[i].last);
 		}// end loop
 
 	}// end if
