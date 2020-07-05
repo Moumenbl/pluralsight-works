@@ -1,19 +1,19 @@
 // JavaScript Document 
 
-var  dataReq = new XMLHttpRequest();
+var xhr = new XMLHttpRequest();
 
-dataReq.open('GET', 'data.JSON', true);
-dataReq.responseType = 'text';
+xhr.open('GET', 'data.JSON', true);
+xhr.responseType = 'text';
+xhr.send();
 
-
-dataReq.onload = function () {
-	if (dataReq.status === 200) {
-		var myStuff = JSON.parse(dataReq.responseText);
+xhr.onload = function () {
+	if (xhr.status === 200) {
+		var myStuff = JSON.parse(xhr.responseText);
 		console.log(myStuff);
-	}//end if
+		console.Log(myStuff[i]);
+	}// end if
+}// end func
 
-}// function end
 
-dataReq.send();
 
 
