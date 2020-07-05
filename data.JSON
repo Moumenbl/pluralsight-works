@@ -1,6 +1,12 @@
-[
-	{"name":"Kazuya", "age":"26", "city":"NY"},
-	{"name":"Steve", "age":"23", "city":"New Orleans"},
-	{"name":"Jin", "age":"25", "city":"Los Angeles"}
+{"presidents":[
+	{"first":"Bouteflika", "last":"Azou", "served":"1999"},
+	{"first":"Teboun", "last":"Tbibn", "served":"2018"},
+	{"first":"Bouteflika", "last":"Selal", "served":"2077"}
 
-]
+], 
+	"vicepresidents":[
+	{"first":"Selal", "last":"Iiugi"},
+	{"first":"John", "last":"Cina"},
+	{"first":"Houcine", "last":"Benouna"}
+
+]}
