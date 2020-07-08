@@ -1,12 +1,23 @@
-{"presidents":[
-	{"first":"Bouteflika", "last":"Azou", "served":"1999"},
-	{"first":"Teboun", "last":"Tbibn", "served":"2018"},
-	{"first":"Bouteflika", "last":"Selal", "served":"2077"}
-
-], 
-	"vicepresidents":[
-	{"first":"Selal", "last":"Iiugi"},
-	{"first":"John", "last":"Cina"},
-	{"first":"Houcine", "last":"Benouna"}
-
-]}
+[
+	{
+		"name":"Southren Serenade",
+		"description":"This elegant suite is highlighted with dramatic colors and a queen cherry rice bed. An antique couch sits in a bay window overlooking the sweeping lawn and the town of rangford across the river. Adjoining the sitting-bedroom is the original family bathroom.",
+		"cost":{"weekend":"$129.00", "weekday":"$99.00"},
+		"details":["Big Screen TV", "Free Wi-fi", "Jetted Tub", "Blue Ray Player"],
+		"photo":"img/serenade.jpg"
+	},
+	{
+		"name":"Enchanted Escape",
+		"description":"This large but cozy room, warmly decorated in taupe and sea green, features a king bed and a pair of wing-backed chairs for relaxing. It is named for another early developer of Rangford who also resided in the home.",
+		"cost":{"weekend":"$179.00", "weekday":"$159.00"},
+		"details":["Jus and Roses", "Jetted Tub","King Sized Bed"],
+		"photo":"img/escape.jpg"
+	},
+	{
+		"name":"Sandy Suite",
+		"description":"A favorite of guests, this bright and spacious room is delightfully decorated in sand and bamboo. It has four window, three of which form a large bay embracing the luxurious cherry queen bed. Snuggle into this elegant four-poster or curl up on the sofa to read.",
+		"cost":{"weekend":"$299.00", "weekday":"$259.00"},
+		"details":["Large Fan", "Sky Light", "Swimming Pool", "Complimentry Sun Screen"],
+		"photo":"img/sandy.jpg"
+	}
+]

@@ -2,16 +2,97 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>New England Inn</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
-<h1>Learning JavaScript</h1>
+	<header>
+		<nav class="navbar navbar-dark bg-dark  navbar-expand-lg  navbar-expand-lg">
+			<a class="navbar-brand" href="#">
+				<span class="navbar-brand mb-0 h1">
+					<h1>
+						New England Inn
+					</h1>
+				<br>
+				<span id="BBF">Bed and Breakfast and Fun</span>
+			</a>
+			<div id="phone-number2">
+				<span>420-105-007</span><br>
+				<span>* Call-Us</span>
+			</div>
+			
+		  <button id="button" 
+		  		  class="navbar-toggler visible-xs" 
+				  type="button" 
+				  data-toggle="collapse" 
+				  data-target="#navbarSupportedContent" 
+				  aria-controls="navbarSupportedContent"
+				  aria-expanded="false" 
+				  aria-label="Toggle navigation"
+				  onblur="">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-<p id="demo"></p>
-
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<ul class="navbar-nav navbar-right" id="button-list">
+		  		<li class="nav-item active">
+		  			<a href="#" class="nav-link">
+		  				<nobr>Southern </nobr>Serenade
+		  			</a>
+		  		</li>
+		  		<li class="nav-item">
+		  			<a href="#" class="nav-link">
+		  				<nobr>Enchantred </nobr>Escape
+		  			</a>
+		  		</li>
+		  		<li class="nav-item">
+		  			<a href="#" class="nav-link">
+		  				<nobr>Sandy </nobr>Suite
+		  			</a>
+		  		</li>
+		  	</ul>
+		  </div>
+		</nav><!-- END NAV -->
+	</header><!--END HEADER -->
+	<div class="container-fluid">
+		<div class ="row">
+			<div class="col-md-4" id="Southern-Serenade">
+				<a href="#">
+					Southern Serenade
+				</a>
+			</div>
+			<div class="col-md-4" id="Enchanted-Escape">
+				<a href="#">
+					Enchanted Escape
+				</a>
+			</div>
+			<div class="col-md-4" id="Sandy-Suite">
+				<a href="#">
+					Sandy Suite
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="phone-number">
+		<a href="#" class="phone-link">
+			<span class="glyphicon glyphicon-phone-alt">420-105-007</span>
+		</a>
+	</div>
 
 
 <script type="text/javascript" src="js/main.js"></script>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
