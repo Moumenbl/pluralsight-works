@@ -14,7 +14,9 @@ xhr.onload = function (){
 	}// end if
 }// end Func
 
-
+function display(x){
+	console.log(x);
+}
 
 
 
