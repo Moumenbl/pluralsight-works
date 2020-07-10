@@ -61,7 +61,7 @@ li {
 	background-color: #66ccff;
 }/* button end */
 #button-list a:active, a:visited {
-	color: #4d4dff;
+	background-color: #4d4dff;
 }
 
 #phone-number {
@@ -179,7 +179,7 @@ li {
 
 }
 #a-row a:active, a:visited {
-	color: #4d4dff;
+	background-color: #4d4dff;
 }
 
 /***** ROOMS *****/
