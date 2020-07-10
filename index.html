@@ -13,6 +13,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+
 
 
 
@@ -50,17 +52,17 @@
 		  	<ul class="navbar-nav navbar-right" id="button-list">
 		  		<li class="nav-item active">
 		  			<a onclick="display(0)" class="nav-link">
-		  				<nobr>Southern </nobr>Serenade
+		  				Southern Serenade
 		  			</a>
 		  		</li>
 		  		<li class="nav-item">
 		  			<a onclick="display(1)" class="nav-link">
-		  				<nobr>Enchantred </nobr>Escape
+		  				Enchantred Escape
 		  			</a>
 		  		</li>
 		  		<li class="nav-item">
 		  			<a onclick="display(2)" class="nav-link">
-		  				<nobr>Sandy </nobr>Suite
+		  				Sandy Suite
 		  			</a>
 		  		</li>
 		  	</ul>
@@ -68,21 +70,21 @@
 		</nav><!-- END NAV -->
 	</header><!--END HEADER -->
 	<div class="container-fluid">
-		<div class ="row">
+		<div class ="row" id="a-row">
 			<div class="col-md-4" id="Southern-Serenade">
 				<a onclick="display(0)">
-					<nobr>Southern <nobr>Serenade
+					&nbsp;Southern&nbsp;Serenade
 				</a>
 			</div>
 			<div class="col-md-4" id="Enchanted-Escape">
-				<button onclick="display(1)">
-					<nobr>Enchanted <nobr>Escape
-				</button>
+				<a onclick="display(1)">
+					&nbsp;Enchanted&nbsp;Escape
+				</a>
 			</div>
 			<div class="col-md-4" id="Sandy-Suite">
-				<button onclick="display(2)">
-					<nobr>Sandy <nobr>Suite
-				</button>
+				<a onclick="display(2)">
+					&nbsp;Sandy&nbsp;Suite
+				</a>
 			</div>
 		</div>
 	</div>
@@ -96,19 +98,21 @@
 		<p id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 		</p>
 	</div>
-	<figure class="photo">
-		<img src="" id="photo" alt="room photo">
-	</figure>
+	<div class="container">
+		<figure class="photo">
+			<img src="" id="photo" alt="room photo">
+		</figure>
+	</div>
 
 	<div class="container" id="container2">
 		<div class="row">
-			<div class="col-md-6" id="cost-section">
+			<div id="cost-section">
 				<h3>Cost</h3>
 				<p>Weekday <span id="weekday">$000.00</span></p>
-				<p>Weekend <span id="weekday">$000.00</span></p>
+				<p>Weekend <span id="weekend">$000.00</span></p>
 			</div>
 
-			<div class="col-md-6" id="amenities-section">
+			<div id="amenities-section">
 				<h3>Amenities</h3>
 				<div id="details">
 					<p>Simple Item 1</p>
@@ -120,6 +124,11 @@
 		</div>
 	</div>
 
+	<footer>
+		<div>
+			&copy; MoumeneBL All Rights Reserved 2020
+		</div>
+	</footer>
 
 
 <script type="text/javascript" src="js/main.js"></script>
