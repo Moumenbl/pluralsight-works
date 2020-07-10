@@ -60,7 +60,7 @@ li {
 #button-list a:hover {
 	background-color: #66ccff;
 }/* button end */
-#button-list a:active {
+#button-list a:active, a:visited {
 	color: #4d4dff;
 }
 
@@ -178,7 +178,7 @@ li {
 	box-shadow: 0 10px 10px #737373, 0 0 40px  #66ccff, 0 20px 80px #66ccff;
 
 }
-#a-row a:active {
+#a-row a:active, a:visited {
 	color: #4d4dff;
 }
 
