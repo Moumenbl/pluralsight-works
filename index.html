@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 
 
 
@@ -69,9 +70,9 @@
 	<div class="container-fluid">
 		<div class ="row">
 			<div class="col-md-4" id="Southern-Serenade">
-				<button onclick="display(0)">
+				<a onclick="display(0)">
 					<nobr>Southern <nobr>Serenade
-				</button>
+				</a>
 			</div>
 			<div class="col-md-4" id="Enchanted-Escape">
 				<button onclick="display(1)">
@@ -90,30 +91,34 @@
 			<span class="glyphicon glyphicon-phone-alt">420-105-007</span>
 		</a>
 	</div>
-	<h2 id="roomName"></h2>
-	<p id="desc"></p>
+	<div id="room">
+		<h2 id="roomName">Room Name</h2>
+		<p id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		</p>
+	</div>
 	<figure class="photo">
 		<img src="" id="photo" alt="room photo">
 	</figure>
 
+	<div class="container" id="container2">
+		<div class="row">
+			<div class="col-md-6" id="cost-section">
+				<h3>Cost</h3>
+				<p>Weekday <span id="weekday">$000.00</span></p>
+				<p>Weekend <span id="weekday">$000.00</span></p>
+			</div>
 
-	<section>
-		<h3>Cost</h3>
-		<p>Weekday <span id="weekday">$000.00</span></p>
-		<p>Weekend <span id="weekday">$000.00</span></p>
-		<a href="#" class="reserve">Make a Reservation</a>
-	</section>
-
-	<section>
-		<h2>Amenities</h2>
-		<div id="details">
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
+			<div class="col-md-6" id="amenities-section">
+				<h3>Amenities</h3>
+				<div id="details">
+					<p>Simple Item 1</p>
+					<p>Simple Item 2</p>
+					<p>Simple Item 3</p>
+					<p>Simple Item 4</p>
+				</div>
+			</div>
 		</div>
-	</section>
+	</div>
 
 
 

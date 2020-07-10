@@ -25,8 +25,8 @@ function display(x){
 	document.getElementById('weekend').innerHTML = hotelInfo[x].cost.weekend;
 
 	details = "";
-	for ( i = 0; i<hotelInfo[x].details.length; i++) {
-		details += "<p>" +hotelInfo.details[i]+ "</p>";
+	for ( i = 0; i < hotelInfo[x].details.length; i++) {
+		details += "<p>" + hotelInfo.details[i] + "</p>";
 	}//end loop
 
 	document.getElementById('details').innerHTML = details;
