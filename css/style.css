@@ -180,9 +180,7 @@ li {
 	box-shadow: 0 10px 10px #737373, 0 0 40px  #66ccff, 0 20px 80px #66ccff;
 
 }
-#a-row a:active, a:focus {
-	background-color: #333333;
-}
+
 
 
 /***** ROOMS *****/

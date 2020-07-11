@@ -33,5 +33,7 @@ function display(x){
 
 }
 
-
+function focusFunction() {
+  document.getElementById("myInput").style.background = "#66ccff";
+}
 
