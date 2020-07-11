@@ -23,6 +23,7 @@ h1 {/*Name*/
 	position: relative;
 	animation-name: title;
 	animation-duration: 10s;
+	transition: 1s;
 
 }
 @keyframes title {
@@ -33,6 +34,9 @@ h1 {/*Name*/
 	100%{color: white;}
 
 
+}
+h1:hover {
+	transform: rotate(180deg);
 }
 
 
@@ -60,8 +64,12 @@ li {
 #button-list a:hover {
 	background-color: #66ccff;
 }/* button end */
-#button-list a:active, a:visited {
-	background-color: #4d4dff;
+#button-list a:active {
+	background-color: #ffffff;
+	color: black;
+}
+#button-list a:visited {
+	background-color: #3333ff;
 }
 
 #phone-number {
@@ -158,7 +166,7 @@ li {
 	font-weight: bold;
 	font-size: 20px;
 
-	transition: 0.2s;
+	transition: 0.9s;
 
 	overflow: hidden;
 
@@ -168,8 +176,6 @@ li {
 	text-decoration: none;
 
 	padding: 15px 30px;
-
-
 }
 #a-row a:hover{
 
@@ -178,8 +184,11 @@ li {
 	box-shadow: 0 10px 10px #737373, 0 0 40px  #66ccff, 0 20px 80px #66ccff;
 
 }
-#a-row a:active, a:visited {
-	background-color: #4d4dff;
+#a-row a:active {
+	background-color: #333333;
+}
+#a-row a:visited {
+	background-color: #3333ff;
 }
 
 /***** ROOMS *****/
